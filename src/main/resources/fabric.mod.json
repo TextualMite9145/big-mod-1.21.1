@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "bigmod",
+	"version": "${version}",
+	"name": "Big Mod",
+	"description": "This is a mod",
+	"authors": [
+		"TextualMite9145/alex"
+	],
+	"contact": {
+		"homepage": "https://alex.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/bigmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.alex.bigmod.BigMod"
+		],
+		"fabric-datagen": [
+			"net.alex.bigmod.BigModDataGenerator"
+		],
+		"client": [
+			"net.alex.bigmod.BigModClient"
+		]
+	},
+	"mixins": [
+		"bigmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
