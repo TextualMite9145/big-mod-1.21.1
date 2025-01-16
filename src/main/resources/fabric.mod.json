@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://alex.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/TextualMite9145/big-mod-template-1.21.1"
 	},
 	"license": "MIT",
 	"icon": "assets/bigmod/icon.png",
