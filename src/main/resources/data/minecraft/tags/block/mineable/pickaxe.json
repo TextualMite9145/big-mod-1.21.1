@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "bigmod:pink_garnet_block",
+    "bigmod:raw_pink_garnet_block",
+    "bigmod:pink_garnet_ore",
+    "bigmod:pink_garnet_deepslate_ore"
+
+  ]
+}

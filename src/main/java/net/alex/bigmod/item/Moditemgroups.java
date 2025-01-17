@@ -29,6 +29,9 @@ public class Moditemgroups {
                         entries.add(ModBlocks.Pink_Garnet_Block);
                         entries.add(ModBlocks.Raw_Pink_Garnet_Block);
 
+                        entries.add(ModBlocks.Pink_Garnet_Ore);
+                        entries.add(ModBlocks.Pink_Garnet_Deepslate_Ore);
+
                     }).build());
 
 
