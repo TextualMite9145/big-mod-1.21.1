@@ -1,5 +1,6 @@
 package net.alex.bigmod;
 
+import net.alex.bigmod.block.ModBlocks;
 import net.alex.bigmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class BigMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

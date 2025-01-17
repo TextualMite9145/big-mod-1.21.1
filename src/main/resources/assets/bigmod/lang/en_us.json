@@ -1,4 +1,7 @@
 {
   "item.bigmod.pink_garnet": "Pink Garnet",
-  "item.bigmodf.raw_pink_garnet": "Raw Pink Garnet"
+  "item.bigmod.raw_pink_garnet": "Raw Pink Garnet",
+
+  "block.bigmod.pink_garnet_block": "Block of Pink Garnet",
+  "block.bigmod.raw_pink_garnet_block": "Block of Raw Pink Garnet"
 }
