@@ -2,13 +2,13 @@
 	"schemaVersion": 1,
 	"id": "bigmod",
 	"version": "${version}",
-	"name": "Big Mod",
-	"description": "This is a mod",
+	"name": "Villager Tower",
+	"description": "This mod adds a villager tower which is similar to pillager outposts",
 	"authors": [
 		"TextualMite9145/alex"
 	],
 	"contact": {
-		"homepage": "https://alex.net/",
+		"homepage": "example.com",
 		"sources": "https://github.com/TextualMite9145/big-mod-template-1.21.1"
 	},
 	"license": "MIT",
