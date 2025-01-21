@@ -1,17 +1,20 @@
 {
+  "placement": {
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "minecraft:pillager_outpost"
+    },
+    "frequency": 0.2,
+    "frequency_reduction_method": "legacy_type_1",
+    "salt": 123524564,
+    "separation": 8,
+    "spacing": 32
+  },
   "structures": [
     {
       "structure": "bigmod:villager_tower",
       "weight": 1
     }
-  ],
-  "placement": {
-    "type": "minecraft:random_spread",
-
-    "salt": 1694767080,
-
-    "spacing": 42,
-
-    "separation": 25
-  }
+  ]
 }
