@@ -20,6 +20,7 @@ public class Moditemgroups {
                         entries.add(ModItems.RAW_PINK_GARNET);
                         entries.add(ModItems.PINK_APPLE);
                         entries.add(ModItems.REFINED_PINK_GARNET);
+                        entries.add(ModItems.STARLIGHT_ASHES);
 
                     }).build());
 
