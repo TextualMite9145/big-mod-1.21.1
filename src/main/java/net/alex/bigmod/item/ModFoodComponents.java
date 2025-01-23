@@ -14,4 +14,17 @@ public class ModFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 4800, 4), 1.0F)
             .alwaysEdible()
             .build();
+
+    public static final FoodComponent REFINED_PINK_GARNET = new FoodComponent.Builder()
+            .nutrition(4)
+            .saturationModifier(1.2F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 400, 4), 1.0F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 400, 4), 1.0F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.POISON, 400, 4), 1.0F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 400, 4), 1.0F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 400, 4), 1.0F)
+            .alwaysEdible()
+            .build();
+
+
 }
