@@ -12,6 +12,8 @@ public class ModItems {
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
 
+    public static final Item PINK_APPLE = registerItem("pink_apple", new Item(new Item.Settings().food(ModFoodComponents.PINK_APPLE)));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(BigMod.MOD_ID, name), item);
     }
